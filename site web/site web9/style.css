@@ -1,0 +1,246 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: century;
+    }
+    
+    header{
+        background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(./image/salon-1517166.jpg);
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+    
+    }
+    
+    .logo a{
+        color: #fffeff;
+        padding: 0px 20px;
+        border: 1px solid #fff;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-weight: 900;
+        text-shadow: rgba(0, 0, 0, 0.7);
+    }
+    
+    .logo span{
+        color: rgb(238, 56,  11);
+        font-weight: bold; 
+        font-size: 2rem;
+    }
+    ul{
+        list-style: none;
+        float: right;
+        display: flex;  /*ajouter les element sur la mm ligne*/
+        margin-top: 20px;
+        margin: 0;
+        padding: 0;
+    }
+    li{
+        list-style-type: none;
+    }
+    a{
+        text-decoration: none;
+        color: rgb(109, 108, 108);
+    }
+    nav{
+    overflow: hidden;
+    background-color: rgb(191, 240, 253);
+    position: fixed;
+    width: 100%;
+    opacity: 0,9;
+    }
+    ul li a{
+        text-decoration: none;
+        color: #fff;
+        padding: 10px 30px;
+        text-transform: uppercase;
+        border: 1px solid transparent;
+        margin: 10px;
+        font-weight: 500;
+        transition: 0.6s ease;
+    }
+    
+    ul li a:hover{
+        background: #000;
+    }
+    
+    ul li.active a{
+        background: #fff;
+        color: #000;
+    }
+    
+    .principale{
+        max-width: 114rem;
+        margin: 0 auto;
+    }
+    
+    
+    .titre{
+         position: absolute;
+         top: 50%;
+         left: 50%;
+         transform: translate(-50%, -50%);
+    
+    }
+    
+    .titre h1{
+        color: #fff;
+        font-size: 50px;
+    }
+    
+    .button{
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    
+    }
+    
+    .button a{
+        color: #fff;
+        text-decoration: none;
+        border: 1px solid #fff;
+        padding: 10px 20px;
+        }
+        .btn{
+            transition: 00.6s ease;
+        }
+        .btn:hover{
+            background: #fff;
+            color: #000;
+        }*{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: century;
+            }
+            
+            header{
+                background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(./image/salon-1517166.jpg);
+                height: 100vh;
+                background-size: cover;
+                background-position: center;
+            
+            }
+            header li{
+                float: right;
+                font-size: 1.2rem;
+            }
+            header li a{
+                text-decoration: none;
+                display: block;
+                text-align: center;
+                padding: 18px 16px;
+            }
+            #imageprincipale{
+                padding-top: 60px;
+                background: url(image/image2.jfif) no-repeat fixed 50% 50% ;
+                background-size: cover;
+                height: 100vh;
+                background-position: center;
+            }
+            h1{
+                font-family: 'Dancing script', cursive;
+                text-align: center;
+                color: antiquewhite;
+                font-size: 6rem;
+                margin-top: 100px;
+                text-shadow: 1px 3px 2px black;
+            }
+            #premiertrait{
+                height: 1px;
+                width: 25%;
+                margin: -3px auto;
+                background-color: azure;
+                box-shadow: 1px 3px 2px black;
+            }   
+            
+            
+            .logo a{
+                color: #faaafa;
+                padding: 0px 20px;
+                border: 1px solid rgb(235, 220, 229);
+                position: absolute;
+                top: 10px;
+                left: 10px;
+                text-transform: uppercase;
+                text-decoration: none;
+                font-weight: 900;
+                text-shadow: rgba(0, 0, 0, 0.7);
+            }
+            
+            .logo span{
+                color: rgb(238, 56,  11);
+                font-weight: bold; 
+                font-size: 2rem;
+            }
+            ul{
+                list-style: none;
+                float: right;
+                display: flex;  /*ajouter les element sur la mm ligne*/
+                margin-top: 20px;
+            }
+            ul li a{
+                text-decoration: none;
+                color: #fff;
+                padding: 10px 30px;
+                text-transform: uppercase;
+                border: 1px solid transparent;
+                margin: 10px;
+                font-weight: 500;
+                transition: 0.6s ease;
+            }
+            
+            ul li a:hover{
+                background: rgb(191, 194, 254);
+            }
+            
+            ul li.active a{
+                background: #fff;
+                color: rgb(180, 178, 178);
+            }
+            
+            .principale{
+                max-width: 114rem;
+                margin: 0 auto;
+            }
+            
+            
+            .titre{
+                 position: absolute;
+                 top: 50%;
+                 left: 50%;
+                 transform: translate(-50%, -50%);
+            
+            }
+            
+            .titre h1{
+                color: #fff;
+                font-size: 50px;
+            }
+            
+            .button{
+                position: absolute;
+                top: 60%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            
+            }
+            
+            .button a{
+                color: #fff;
+                text-decoration: none;
+                border: 1px solid #fff;
+                padding: 10px 20px;
+                }
+                .btn{
+                    transition: 00.6s ease;
+                }
+                .btn:hover{
+                    background: #fff;
+                    color: #000;
+                }
